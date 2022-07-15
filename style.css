@@ -1,0 +1,170 @@
+ /* fonts */
+ @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+ /* common styles  */
+ body {
+     background: #fff9f9;
+ }
+
+ p {
+     font-family: 'Montserrat', sans-serif;
+     font-size: 15px;
+ }
+
+ .half-width {
+     margin-left: 10%;
+     font-family: 'Poppins', sans-serif;
+
+ }
+
+ /* Top section */
+ .flexible-container {
+     display: flex;
+     margin: 0;
+ }
+
+ .text-alg {
+     margin-top: 130px;
+     font-size: 35px;
+
+ }
+
+ .half-width img {
+     height: 647px;
+     width: 558px;
+
+
+ }
+
+ span {
+     color: #FBA24F;
+ }
+
+ .link-button {
+     text-decoration: none;
+     background-image: linear-gradient(orange, tomato);
+     padding: 15px 45px;
+     border-radius: 20px;
+     /* font-weight: 700; */
+     color: white;
+     font-size: 15px;
+
+
+ }
+
+ /* Middle section */
+ .bg {
+     background-image: url(shapes/Frame\ 59.jpg);
+     background-repeat: no-repeat;
+     margin-top: 3em;
+ }
+
+ .half-width1 img {
+     margin-left: 10%;
+ }
+
+ .half-width2 {
+     margin-top: 8em;
+     text-align: justify;
+     width: 50%;
+     margin-right: 10%;
+     margin-left: 10%;
+ }
+
+ .half-width2 p {
+
+     margin-bottom: 15%;
+ }
+
+ .half-width2 h1 {
+
+     margin-bottom: 8%;
+ }
+
+ /* Genreal div */
+ .halfwidth {
+     font-family: 'Poppins', sans-serif;
+     text-align: center;
+     margin-top: 3%;
+ }
+
+ .halfwidth p {
+     /* text-align: justify; */
+     margin-left: 20%;
+     margin-right: 20%;
+     font-family: 'Montserrat', sans-serif;
+ }
+
+ /* Last section */
+ .cardimg img {
+     width: 80%;
+     margin-left: 2em;
+     margin-top: 3%;
+     border-radius: 2em;
+ }
+
+ .card {
+     background-color: white;
+     box-shadow: 20px 20px 10px whitesmoke;
+     border: 7px solid white;
+     border-radius: 2em;
+     margin-left: 2em;
+
+ }
+
+ .card-box {
+     padding-left: 2em;
+ }
+
+ .card-box h1 {
+     font-weight: 900;
+
+ }
+
+ .card-sec {
+     margin-top: 7%;
+     /* margin-left: 2%; */
+     background-color: white;
+ }
+
+ /* Instagram,Youtube */
+ .box {
+     margin-top: 10%;
+     text-align: center;
+     justify-content: center;
+     background-color: rgb(255, 255, 255);
+     box-shadow: 20px 20px 10px rgb(255, 255, 255);
+     width: 80%;
+     margin-left: 15%;
+     border-radius: 10px;
+
+ }
+
+ .likes {
+     margin-left: 10%;
+ }
+
+ .likes p {
+     font-size: 30px;
+     color: black;
+     font-weight: 700;
+
+ }
+
+ footer {
+     margin-top: 10%;
+     background-color: black;
+     text-align: center;
+     color: rgba(229, 247, 223, 0.253);
+     padding-top: 6%;
+     padding-bottom: 5%;
+
+
+ }
+
+
+
+ footer p {
+     color: #fff9f9;
+ }
